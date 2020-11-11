@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/eapl",
   siteMetadata: {
     siteUrl: "http://localhost:8000/",
     siteLogo: "",
