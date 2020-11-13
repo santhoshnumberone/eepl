@@ -5,10 +5,10 @@ module.exports = {
     title: "Electronanu",
     description: "Best electric vehicle",
     author: "@developer_amir",
-    twitter: "https://twitter.com/blindsrightuk",
-    facebook: "https://www.facebook.com/profile.php?id=100036434949575",
+    twitter: "",
+    facebook: "",
     email: "mailto:enquiries@blindsright.co.uk",
-    instagram: "https://instagram.com/blindsright",
+    instagram: "",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

@@ -14,6 +14,12 @@ export default class LandingPage extends Component {
     render() {
         return (
             <div className={Styles.container}>
+                <div className={Styles.preHeader}>
+                    <div>
+                        <span>+91 8105415436</span>
+                        <span>santhosh@electraanuenergy.com</span>
+                    </div>
+                </div>
                 <div className={Styles.textSection}>
                     <h1 className="heading-stand-out">We are <span style={{ color: "#39FF14" }}>Green</span></h1>
                 </div>

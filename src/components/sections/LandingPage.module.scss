@@ -26,3 +26,16 @@
         padding: 1rem 0;
     }
 }
+
+.pre-header {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    span {
+        display: inline-block;
+    }
+    span:first-child {
+        margin-right: 1rem;
+    }
+}
