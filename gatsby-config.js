@@ -1,53 +1,68 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "http://localhost:8000/",
-    siteLogo: "",
-    title: "Electronanu",
-    description: "Best electric vehicle",
-    author: "@developer_amir",
-    twitter: "",
-    facebook: "",
-    email: "mailto:enquiries@blindsright.co.uk",
-    instagram: "",
+    title: `Electraanu Energy Private Limited`,
+    description: `Electric Vehicle Startup`,
+    author: `@gatsbyjs`,
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-sitemap",
-    "gatsby-plugin-use-query-params",
-    "gatsby-plugin-robots-txt",
-    "gatsby-plugin-offline", // Enables Service Worker
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
-      resolve: "gatsby-plugin-sass",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        useResolveUrlLoader: true,
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
       },
     },
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-nprogress`,
       options: {
-        trackingId: "UA-17450837-1",
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: false,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        name: "images",
-        path: `${__dirname}/src/images`,
+        google: {
+          families: ['Gotu'],
+          path: `${__dirname}/src/static/fonts/fonts.css`,
+        },
       },
     },
+    `gatsby-plugin-page-transitions`,
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-page-transitions',
       options: {
-        name: "gatsby-starter-default",
-        short_name: "starter",
-        start_url: "/",
-        background_color: "#663399",
-        theme_color: "#663399",
-        display: "minimal-ui",
-        icon: "src/images/gatsby-icon.png", // This path is relative to the root of the site.
+        transitionTime: 500
       },
     },
+    `gatsby-transformer-ffmpeg`,
   ],
 }

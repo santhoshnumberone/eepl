@@ -1,13 +1,12 @@
 import React from "react"
-
-import Layout from "../components/global/Layout"
-import SEO from "../components/global/seo"
-import LandingPage from "../components/sections/LandingPage";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import ClimateChange from "../components/ClimateChange"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <LandingPage />
+    <ClimateChange />
   </Layout>
 )
 

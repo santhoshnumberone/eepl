@@ -1,5 +1,13 @@
-import "./src/styles/reset.scss";
-import "./src/styles/global.scss";
-import "./src/styles/text-helpers.scss";
-import "./src/styles/layout-helpers.scss";
-import "flexboxgrid";
+/**
+ * Implement Gatsby's Browser APIs in this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/browser-apis/
+ */
+
+// You can delete this file if you're not using it
+
+export const onInitialClientRender = () => {
+    setTimeout(function() {
+        document.getElementById("___loader").style.display = "none"
+    }, 1000)
+}
