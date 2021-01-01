@@ -25,6 +25,11 @@ const CompanyName = styled.p`
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  @media screen and (max-width: 320px) {
+    margin-left: 1rem;
+    
+  }
+  
   `
   const CompanyNameHeader = styled.div`
   align-items: center;

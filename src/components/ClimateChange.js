@@ -171,6 +171,27 @@ justify-content: space-evenly;
     margin-right:3.5rem;
     
   }
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+    align-items: center;
+    margin-left:3rem;
+    margin-right:1.5rem;
+    
+  }
+  @media screen and (max-width: 360px) {
+    flex-direction: column;
+    align-items: center;
+    margin-left:2rem;
+    margin-right:2.5rem;
+    
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    align-items: center;
+    margin-left:0.8rem;
+    margin-right:0.8rem;
+    
+  }
     animation: fadeIn ease-in 2.6s;
     -webkit-animation: fadeIn ease-in 2.6s;
     -moz-animation: fadeIn ease-in 2.6s;
@@ -288,6 +309,10 @@ user-select: none; /* Standard */
     min-width:100%;
     padding-left:0.6rem;
     padding-right:2.6rem;}
+@media screen and (max-width: 414px) {
+  min-width:100%;
+  padding-left:0.6rem;
+  padding-right:0.9rem;}
 `
 
 const ClimateChangeContainer = styled.div`
@@ -850,7 +875,7 @@ letter-spacing: -1.1px;
   align-content: center;
   display: grid;
   justify-content: center;
-  align-content: center;
+  // align-content: center;
   // grid-template-columns: 1fr;
   // max-width: 100%;
   // padding: 0 2rem;
@@ -941,6 +966,23 @@ height: 100%;
 @media screen and (max-width: 650px) {
   margin-top: 3.1rem;}
 
+@media screen and (max-width: 414px) {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  margin-top: 7rem;}
+@media screen and (max-width: 375px) {
+  padding-left: 0.1rem;
+  padding-right: 0.7rem;
+  margin-top: 6rem;}
+  
+@media screen and (max-width: 360px) {
+  padding-left: 0.1rem;
+  padding-right: 1.9rem;
+  margin-top: 7.6rem;}
+@media screen and (max-width: 320px) {
+  padding-left: 0.1rem;
+  padding-right: 6rem;
+  margin-top: 9.9rem;}
 // @media screen and (max-width: 510px) {
 // margin-top: 3rem;}
 
