@@ -19,7 +19,7 @@ const Header = () => {
   `)
   return (
     <CompanyNameHeader>
-              <CompanyLogo image={data.image1.childImageSharp.gatsbyImageData}/>
+              <CompanyLogo image={data.image1.childImageSharp.gatsbyImageData} alt="Company logo"/>
     </CompanyNameHeader>
   )
 

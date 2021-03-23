@@ -51,7 +51,7 @@ const ClimateChange = () => {
                     GET IN TOUCH
                 </InviteSpecific1>
                 <ContactImageContainer1 css={''}>
-                  <ContactImage image={data.image1.childImageSharp.gatsbyImageData}/>
+                  <ContactImageH image={data.image1.childImageSharp.gatsbyImageData} alt="Contact Image"/>
                 </ContactImageContainer1 >
                 <LinkedInDetails1><LinkedInIcon/><Description ><ProfileLink href={"https://www.linkedin.com/in/santhosh-electraanu"}>SANTHOSH</ProfileLink></Description></LinkedInDetails1>
                 <Phone1><PhoneIcon/><Description>+91-8105415436</Description></Phone1>
@@ -74,7 +74,7 @@ const ClimateChange = () => {
                   GET IN TOUCH
               </InviteSpecific2>
               <ContactImageContainer2 css={''}>
-              <ContactImage image={data.image1.childImageSharp.gatsbyImageData}/>
+              <ContactImageV image={data.image1.childImageSharp.gatsbyImageData} alt="Contact Image"/>
               </ContactImageContainer2 >
               
               <LinkedInDetails2><LinkedInIcon/><Description ><ProfileLink href={"https://www.linkedin.com/in/santhosh-electraanu"}>SANTHOSH</ProfileLink></Description></LinkedInDetails2>
@@ -9647,7 +9647,10 @@ user-select: none; /* Standard */
 //////////////////////////////////////////////////////////////////
 `
 
-const ContactImage = styled(GatsbyImage)`
+const ContactImageH = styled(GatsbyImage)`
+border-radius: 51%;
+`
+const ContactImageV = styled(GatsbyImage)`
 border-radius: 51%;
 `
 const ClimateChangeTemperatureOutter = styled.div`
