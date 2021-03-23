@@ -17,6 +17,6 @@ const Layout = ({ children }) => {
 export default Layout
 
 const Webtemplate = styled.div`
-box-shadow: 0 0 0 1px black;
-border-radius: 4px 4px;
+width:100%;
+height: 100%;
 `

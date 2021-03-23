@@ -14,8 +14,9 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,6 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
+        // The property ID; the tracking code won't be generated without it
         trackingId: "UA-186169308-1",
       },
     },
@@ -62,13 +64,5 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-page-transitions`,
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 500
-      },
-    },
-    `gatsby-transformer-ffmpeg`,
   ],
 }
