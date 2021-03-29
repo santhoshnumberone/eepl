@@ -751,6 +751,12 @@ align-content: center;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  padding-right: 1px; //828x.0005=0.414
+    padding-left: 1px;
+    margin-top: 26.88px; //1792x0.015=26.88
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -760,12 +766,30 @@ align-content: center;
     padding-left: 1px;
     margin-top: 7.2px; //480x0.015=7.2
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  padding-right: 1px; //828x.0005=0.414
+  padding-left: 1px;
+  margin-top: 26.88px; //1792x0.015=26.88
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     padding-right: 1px; //828x.0005=0.414
     padding-left: 1px;
     margin-top: 26.88px; //1792x0.015=26.88
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  padding-right: 1px; //828x.0005=0.414
+  padding-left: 1px;
+  margin-top: 26.88px; //1792x0.015=26.88
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  padding-right: 1px; //828x.0005=0.414
+  padding-left: 1px;
+  margin-top: 26.88px; //1792x0.015=26.88
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -803,6 +827,12 @@ align-content: center;
     padding-right: 1.05px; //768x.0010=1.05
     padding-left: 1.05px;
     margin-top: 19.2px; //1280x0.015=19.2
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    padding-right: 0.768px; //768x.0010=0.768
+    padding-left: 0.768px;
+    margin-top: 15.36px; //1024x0.015=15.36
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -847,7 +877,7 @@ align-content: center;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -855,6 +885,18 @@ align-content: center;
     padding-left: 1px;
     margin-top: 15.36px; //1024x0.015=15.36
   }
+  // Vertical Smartphone Display
+	@media screen and (max-height: 962px){
+    padding-right: 1px; //640x.0010=.64
+    padding-left: 1px;
+    margin-top: 14.4px; //960x0.015=14.4
+  }	
+  // Vertical Smartphone Display
+	@media screen and (max-height: 960px){
+    padding-right: 1px; //640x.0010=.64
+    padding-left: 1px;
+    margin-top: 14.4px; //960x0.015=14.4
+  }	
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
     padding-right: 1px; //800x.0010=.8
@@ -872,6 +914,15 @@ align-content: center;
     padding-left: 1px;
     margin-top: 14.4px; //960x0.015=14.4
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  padding-right: 1px; //540x.0010=0.54
+  padding-left: 1px;
+  margin-top: 14.4px; //960x0.015=14.4
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -904,20 +955,75 @@ align-content: center;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 360px)
+@media screen and (max-width: 432px)
 {	
-	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
+  padding-right: 1px; 
+  padding-left: 1px;
+  margin-top: 7.2px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  padding-right: 1px; 
+  padding-left: 1px;
+  margin-top: 7.2px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  padding-right: 1px; 
+  padding-left: 1px;
+  margin-top: 7.2px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  padding-right: 1px; 
+  padding-left: 1px;
+  margin-top: 7.2px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
     padding-right: 1px; //360x.0010=0.75
     padding-left: 1px;
     margin-top: 7.2px; //480x0.015=7.2
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+    padding-right: 1px; //360x.0010=0.75
+    padding-left: 1px;
+    margin-top: 7.2px; //480x0.015=7.2
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 360px)
+{	
+    padding-right: 1px; //360x.0010=0.75
+    padding-left: 1px;
+    margin-top: 7.2px; //480x0.015=7.2
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+	@media screen and (max-width: 320px){
     padding-right: 1px; //320x.0010=0.75
     padding-left: 1px;
     margin-top: 7.2px; //480x0.015=7.2
   }	
+  //////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  padding-right: 1px; //320x.0010=0.75
+    padding-left: 1px;
+    margin-top: 7.2px; //480x0.015=7.2
 }
 //////////////////////////////////////////////////////////////////
 animation: fadeIn ease-in 5s;
@@ -1479,6 +1585,10 @@ z-index: 600;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -1486,10 +1596,24 @@ z-index: 600;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(2.28rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(3.15rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -1515,6 +1639,10 @@ z-index: 600;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    font-size: clamp(2.1rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     font-size: clamp(2.1rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -1550,16 +1678,26 @@ z-index: 600;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.96rem, 1.9vw, 1.1rem);
+  }	
+  // Vertical Smartphone Display
+	@media screen and (max-height: 960px){
+    font-size: clamp(1.96rem, 1.9vw, 1.1rem);
+  }	
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+  font-size: clamp(1.91rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -1569,6 +1707,13 @@ z-index: 600;
 	@media screen and (max-height: 960px){
     font-size: clamp(1.73rem, 1.9vw, 1.1rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.73rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -1593,16 +1738,55 @@ z-index: 600;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  font-size: clamp(1.36rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  font-size: clamp(1.34rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  font-size: clamp(1.33rem, 1.9vw, 1.1rem); 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  font-size: clamp(1.31rem, 1.9vw, 1.1rem); 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+    font-size: clamp(1.24rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+    font-size: clamp(1.24rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
-	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     font-size: clamp(1.24rem, 1.9vw, 1.1rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(1.24rem, 1.9vw, 1.1rem);
-  }	
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  font-size: clamp(1.24rem, 1.9vw, 1.1rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  font-size: clamp(1.24rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 `
@@ -2112,6 +2296,10 @@ z-index: 600;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -2119,10 +2307,22 @@ z-index: 600;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(2.28rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(3.15rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(3.15rem, 1.9vw, 1.1rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -2149,6 +2349,10 @@ z-index: 600;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    font-size: clamp(2.1rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     font-size: clamp(2.1rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -2184,16 +2388,27 @@ z-index: 600;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+	@media screen and (max-height: 962px){
+    // Vertical Smartphone Display
+  font-size: clamp(1.91rem, 1.9vw, 1.1rem);
+  }	
+  // Vertical Smartphone Display
+	@media screen and (max-height: 960px){
+    // Vertical Smartphone Display
+  font-size: clamp(1.91rem, 1.9vw, 1.1rem);
+  }	
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -2203,6 +2418,13 @@ z-index: 600;
 	@media screen and (max-height: 960px){
     font-size: clamp(1.73rem, 1.9vw, 1.1rem);
   }		
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.73rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -2227,16 +2449,56 @@ z-index: 600;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  font-size: clamp(1.36rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  font-size: clamp(1.34rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  font-size: clamp(1.33rem, 1.9vw, 1.1rem); 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  font-size: clamp(1.31rem, 1.9vw, 1.1rem); 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+    font-size: clamp(1.24rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+    font-size: clamp(1.24rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     font-size: clamp(1.24rem, 1.9vw, 1.1rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+	@media screen and (max-width: 320px){
     font-size: clamp(1.24rem, 1.9vw, 1.1rem);
   }	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  font-size: clamp(1.24rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 color: #ff1010;
@@ -2926,9 +3188,9 @@ line-height: 1.2 !important;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1920px){
-    min-width: 1036.8px;//1080x0.96=1036.8
-    margin-left: 10.8px; //1080x0.01=10.8
-    margin-right: 10.8px;
+    min-width: 73%;//1080x0.73=788.4
+    margin-left: 13.5%; //1080x0.135=10.8
+    margin-right: 13.5%;
     margin-top: 19.2px; //1920x0.010=19.2
   }
 	// Vertical Monitor Display
@@ -3001,6 +3263,14 @@ line-height: 1.2 !important;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  min-width: 848.64px;//884x0.96=848.64
+  margin-left: 6px; //828x0.01=8
+  margin-right: 6px;
+  margin-top: 17.92px; //1792x0.010=17.92
+  margin-bottom: 37px;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -3012,6 +3282,14 @@ line-height: 1.2 !important;
     margin-top: 4.8px; //480x0.010=4.8
     margin-bottom: 37px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  min-width: 800.64px;//834x0.96=800.64
+  margin-left: 6px; //834x0.01=8
+  margin-right: 6px;
+  margin-top: 17.92px; //1792x0.010=17.92
+  margin-bottom: 37px;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     min-width: 794.88px;//828x0.96=794.88
@@ -3020,6 +3298,22 @@ line-height: 1.2 !important;
     margin-top: 17.92px; //1792x0.010=17.92
     margin-bottom: 37px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  min-width: 787.2px;//820x0.96=787.2
+  margin-left: 5px; //828x0.01=8
+  margin-right: 5px;
+  margin-top: 17.92px; //1792x0.010=17.92
+  margin-bottom: 37px;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  min-width: 777.6px;//810x0.96=777.6
+  margin-left: 5px; //828x0.01=8
+  margin-right: 5px;
+  margin-top: 17.92px; //1792x0.010=17.92
+  margin-bottom: 37px;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -3065,6 +3359,13 @@ line-height: 1.2 !important;
     margin-left: 7.68px; //768x0.01=7.68
     margin-right: 7.68px;
     margin-top: 12.8px; //1280x0.010=12.8
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    min-width: 614.4px;//768x0.96=614.4
+    margin-left: 7.68px; //768x0.01=7.68
+    margin-right: 7.68px;
+    margin-top: 10.24px; //1024x0.010=10.24
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -3118,7 +3419,7 @@ line-height: 1.2 !important;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -3126,6 +3427,22 @@ line-height: 1.2 !important;
     margin-left: 6px; //600x0.01=6
     margin-right: 6px;
     margin-top: 10.24px; //1024x0.010=10.24
+    margin-bottom: 37px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    min-width: 576px;//600x0.96=576
+    margin-left: 6px; //600x0.01=6
+    margin-right: 6px;
+    margin-top: 8px; //800x0.010=8
+    margin-bottom: 37px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
+    min-width: 576px;//600x0.96=576
+    margin-left: 6px; //600x0.01=6
+    margin-right: 6px;
+    margin-top: 8px; //800x0.010=8
     margin-bottom: 37px;
   }
 	// Vertical Tablet Display
@@ -3136,6 +3453,12 @@ line-height: 1.2 !important;
     margin-top: 8px; //800x0.010=8
     margin-bottom: 37px;
   }
+  // Vertical Tablet Display
+  min-width: 576px;//600x0.96=576
+    margin-left: 6px; 
+    margin-right: 6px;
+    margin-top: 8px; 
+    margin-bottom: 37px;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -3149,6 +3472,17 @@ line-height: 1.2 !important;
     margin-top: 10px; //540x0.010=5.4
     margin-bottom: 37px;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  min-width: 483.84px;//504x0.96=483.84
+    margin-left: 4px; //540x0.01=5
+    margin-right: 4px;
+    margin-top: 10px; //540x0.010=5.4
+    margin-bottom: 37px;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -3189,24 +3523,99 @@ line-height: 1.2 !important;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    min-width: 90%;
+    margin-left: 4px; 
+    margin-right: 4px;
+    margin-top: 4.8px; 
+    margin-bottom: 37px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    min-width: 324px;//360x0.9=324
-    margin-left: 3.6px; //360x0.01=3.6
-    margin-right: 3.6px;
+    min-width: 90%;//360x0.73=324
+    margin-left: 4px; //360x0.27=3.6
+    margin-right: 4px;
     margin-top: 4.8px; //480x0.010=4.8
     margin-bottom: 37px;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    min-width: 307.2px;//320x0.96=307.2
-    margin-left: 3.2px; //320x0.01=3.2
-    margin-right: 3.2px;
+	
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+	@media screen and (max-width: 320px){
+    min-width: 90%;//320x0.96=307.2
+    margin-left: 4px; //320x0.01=3.2
+    margin-right: 4px;
     margin-top: 4.8px; //480x0.010=4.8
     margin-bottom: 37px;
   }	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  min-width: 216px;//240x0.9=216
+  margin-left: 4px; //320x0.01=3.2
+  margin-right: 4px;
+  margin-top: 4.8px; //480x0.010=4.8
+  margin-bottom: 37px;
 }
 //////////////////////////////////////////////////////////////////
 box-shadow: /* ie */
@@ -3752,6 +4161,10 @@ z-index:1000;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  width: 839.8px; //884x0.95=839.8
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -3759,10 +4172,22 @@ z-index:1000;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     width: 811.3px; //854x0.95=811.3
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  width: 792.3px; //834x0.95=792.3
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     width: 786.6px; //828x0.95=786.6
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  width: 779px; //820x0.95=779
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  width: 769.5px; //810x0.95=769.5
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -3789,6 +4214,10 @@ z-index:1000;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    width: 729.6px; //768x0.95=729.6
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     width: 729.6px; //768x0.95=729.6
   }
 	// Vertical Tablet Display
@@ -3824,10 +4253,18 @@ z-index:1000;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    width: 576px; //600x0.96=576
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    width: 576px; //600x0.96=576
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     width: 576px; //600x0.96=576
   }
 	// Vertical Tablet Display
@@ -3843,6 +4280,13 @@ z-index:1000;
 	@media screen and (max-height: 960px){
     width: 518.4px; //540x0.96=518.4
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  width: 483.84px; //504x0.96=483.84
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -3867,16 +4311,63 @@ z-index:1000;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  width: 388.8px; //432x0.90=388.8
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  width: 385.2px; //428x0.90=385.2
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  width: 369.9px; //411x0.90=369.9
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  width: 351px; //390x0.90=351
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    width: 345.6px; //384x0.90=345.6
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    width: 337.5px; //375x0.90=337.5
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    width: 324px; //360x0.97=349
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    width: 288px; //320x0.97=310
+    width: 324px; //360x0.90=324
+	
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+	@media screen and (max-width: 320px){
+    width: 288px; //320x0.90=288
   }	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  width: 216px; //240x0.90=216
 }
 //////////////////////////////////////////////////////////////////
 `
@@ -4602,6 +5093,13 @@ position: relative;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  line-height: 1 !important;
+    font-size: clamp(1.96rem, 1.4vw, 0.2rem);
+    margin-left: 8.28px;
+    margin-right: 8.28px; //854x0.01=8.28
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -4612,6 +5110,13 @@ position: relative;
     margin-left: 8.54px;
     margin-right: 8.54px; //854x0.01=8.54
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  line-height: 1 !important;
+  font-size: clamp(1.96rem, 1.4vw, 0.2rem);
+  margin-left: 8.28px;
+  margin-right: 8.28px; //854x0.01=8.28
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     line-height: 1 !important;
@@ -4619,6 +5124,20 @@ position: relative;
     margin-left: 8.28px;
     margin-right: 8.28px; //854x0.01=8.28
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  line-height: 1 !important;
+  font-size: clamp(1.96rem, 1.4vw, 0.2rem);
+  margin-left: 8.28px;
+  margin-right: 8.28px; //854x0.01=8.28
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  line-height: 1 !important;
+  font-size: clamp(1.96rem, 1.4vw, 0.2rem);
+  margin-left: 8.28px;
+  margin-right: 8.28px; //854x0.01=8.28
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -4657,6 +5176,13 @@ position: relative;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    line-height: 1 !important;
+    font-size: clamp(1.55rem, 1.4vw, 0.2rem);
+    margin-left: 53.76px;
+    margin-right: 53.76px; //768x0.07=53.76
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     line-height: 1 !important;
     font-size: clamp(1.55rem, 1.4vw, 0.2rem);
     margin-left: 53.76px;
@@ -4710,10 +5236,24 @@ position: relative;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    line-height: 1 !important;
+    font-size: clamp(1.06rem, 1.4vw, 0.2rem);
+    margin-left: 6px;
+    margin-right: 6px; //600x0.01=6
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    line-height: 1 !important;
+    font-size: clamp(1.06rem, 1.4vw, 0.2rem);
+    margin-left: 6px;
+    margin-right: 6px; //600x0.01=6
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     line-height: 1 !important;
     font-size: clamp(1.06rem, 1.4vw, 0.2rem);
     margin-left: 6px;
@@ -4726,6 +5266,11 @@ position: relative;
     margin-left: 6px;
     margin-right: 6px; //600x0.01=6
   }
+  // Vertical Tablet Display
+  line-height: 1 !important;
+    font-size: clamp(1.05rem, 1.4vw, 0.2rem);
+    margin-left: 6px;
+    margin-right: 6px; //600x0.01=6
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -4738,6 +5283,16 @@ position: relative;
     margin-left: 6px;
     margin-right: 6px; //540x0.01=4.8
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(1rem, 1.4vw, 0.2rem);
+  margin-left: 6px;
+  margin-right: 6px; //540x0.01=4.8
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -4774,22 +5329,89 @@ position: relative;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.88rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.87rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.86rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.86rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; 
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.82rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; //360x0.01=3.6
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+  line-height: 1 !important;
+  font-size: clamp(0.82rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; //360x0.01=3.6
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     line-height: 1 !important;
     font-size: clamp(0.82rem, 1.4vw, 0.2rem);
     margin-left: 3.6px;
     margin-right: 3.6px; //360x0.01=3.6
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    line-height: 1 !important;
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  line-height: 1 !important;
+  font-size: clamp(0.82rem, 1.4vw, 0.2rem);
+  margin-left: 3.6px;
+  margin-right: 3.6px; //360x0.01=3.6
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  line-height: 1 !important;
     font-size: clamp(0.82rem, 1.4vw, 0.2rem);
-    margin-left: 3.6px;
-    margin-right: 3.6px; //360x0.01=3.6
-  }	
+    margin-left: 1px;
+    margin-right: 1px; //360x0.01=3.6
 }
 //////////////////////////////////////////////////////////////////
 `
@@ -5299,6 +5921,10 @@ background: #f8f9f5;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  display:none;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -5306,10 +5932,22 @@ background: #f8f9f5;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     display:none;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  display:none;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     display:none;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  display:none;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  display:none;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -5336,6 +5974,10 @@ background: #f8f9f5;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    display:none;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     display:none;
   }
 	// Vertical Tablet Display
@@ -5371,10 +6013,18 @@ background: #f8f9f5;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    display:none;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    display:none;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     display:none;
   }
 	// Vertical Tablet Display
@@ -5389,6 +6039,13 @@ background: #f8f9f5;
 	@media screen and (max-height: 960px){
     display:none;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  display:none;
 }
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 480px)
@@ -5412,17 +6069,63 @@ background: #f8f9f5;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  display:none;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  display:none;
+}
+//////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  display:none;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  display:none;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    display:none;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    display:none;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     display:none;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    display:none;
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  display:none;
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  display:none;
+}	
 //////////////////////////////////////////////////////////////////
 box-shadow: /* ie */
                  0px -2px 2px -1px  #F5AD28, /* top - THE BLUE SHADOW */
@@ -5866,6 +6569,9 @@ padding-bottom:0.2rem;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -7554,6 +8260,18 @@ box-shadow: /* ie */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  display:block;
+  max-width: 645.32px; //884x0.73=645.32
+  margin-top:17.92px; // 1792x.010=17.92
+  margin-bottom:17.92px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -7569,6 +8287,18 @@ box-shadow: /* ie */
     line-height: 1.0 !important;
     letter-spacing: -1.1px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  display:block;
+  max-width: 608.82px; //834x0.73=608.82
+  margin-top:17.92px; // 1792x.010=17.92
+  margin-bottom:17.92px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     display:block;
@@ -7581,6 +8311,30 @@ box-shadow: /* ie */
     line-height: 1.0 !important;
     letter-spacing: -1.1px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  display:block;
+  max-width: 598.6px; //820x0.73=598.6
+  margin-top:17.92px; // 1792x.010=17.92
+  margin-bottom:17.92px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  display:block;
+  max-width: 591.3px; //810x0.73=591.3
+  margin-top:17.92px; // 1792x.010=17.92
+  margin-bottom:17.92px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -7639,6 +8393,18 @@ box-shadow: /* ie */
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    display:block;
+    max-width: 529.92px; //768x0.69=529.92
+    margin-top:7.68px; // 768x.010=7.68
+    margin-bottom:7.68px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     display:block;
     max-width: 529.92px; //768x0.69=529.92
     margin-top:7.68px; // 768x.010=7.68
@@ -7722,7 +8488,7 @@ box-shadow: /* ie */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -7730,6 +8496,30 @@ box-shadow: /* ie */
     max-width: 414px; //600x0.69=414
     margin-top:10.24px; // 1024x.010=10.24
     margin-bottom:10.24px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    display:block;
+    max-width: 414px; //600x0.69=414
+    margin-top:8px; // 800x.010=8
+    margin-bottom:8px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
+    display:block;
+    max-width: 414px; //600x0.69=414
+    margin-top:8px; // 800x.010=8
+    margin-bottom:8px;
     align-self: center;
     justify-self: center;
     justify-content: center;
@@ -7765,6 +8555,21 @@ box-shadow: /* ie */
     line-height: 1.0 !important;
     letter-spacing: -1.1px;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  display:block;
+    max-width: 347.76px; //504x0.69=347.76
+    margin-top:9px; // 960x.010=9.6
+    margin-bottom:9px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -7821,10 +8626,99 @@ box-shadow: /* ie */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  display:block;
+  max-width: 315.36px; //432x0.73=315.36
+  margin-top:4.8px; // 480x.010=4.8
+  margin-bottom:4.8px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  display:block;
+  max-width: 312.44px; //428x0.73=312.44
+  margin-top:4.8px; // 480x.010=4.8
+  margin-bottom:4.8px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    display:block;
+    max-width: 300.03px; //411x0.73=300.03
+    margin-top:4.8px; // 480x.010=4.8
+    margin-bottom:4.8px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    display:block;
+    max-width: 284.7px; //390x0.73=284.7
+    margin-top:4.8px; // 480x.010=4.8
+    margin-bottom:4.8px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    display:block;
+    max-width: 280.32px; //384x0.73=280.32
+    margin-top:4.8px; // 480x.010=4.8
+    margin-bottom:4.8px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    display:block;
+    max-width: 273.75px; //375x0.73=273.75
+    margin-top:4.8px; // 480x.010=4.8
+    margin-bottom:4.8px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    line-height: 1.0 !important;
+    letter-spacing: -1.1px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     display:block;
     max-width: 262.8px; //360x0.73=262.8
     margin-top:4.8px; // 480x.010=4.8
@@ -7834,11 +8728,25 @@ box-shadow: /* ie */
     justify-content: center;
     line-height: 1.0 !important;
     letter-spacing: -1.1px;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    display:block;
-    max-width: 233.6px; //320x0.73=233.6
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  display:block;
+  max-width: 233.6px; //320x0.73=233.6
+  margin-top:4.8px; // 480x.010=4.8
+  margin-bottom:4.8px;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  line-height: 1.0 !important;
+  letter-spacing: -1.1px;
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  
+  display:block;
+  max-width: 172px; //240x0.72=172
     margin-top:4.8px; // 480x.010=4.8
     margin-bottom:4.8px;
     align-self: center;
@@ -7846,8 +8754,7 @@ box-shadow: /* ie */
     justify-content: center;
     line-height: 1.0 !important;
     letter-spacing: -1.1px;
-  }	
-}
+}	
 //////////////////////////////////////////////////////////////////
   animation: fadeIn ease-in 1s;
   -webkit-animation: fadeIn ease-in 1s;
@@ -8367,6 +9274,10 @@ user-select: none; /* Standard */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -8374,10 +9285,22 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(2.15rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -8406,6 +9329,11 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
     padding-top:1.28px; //1280x.0010=1.28px
+    font-size: clamp(1.73rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    padding-top:1.02px; //1024x.0010=1.02px
     font-size: clamp(1.73rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -8446,10 +9374,18 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     font-size: clamp(1.51rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -8465,6 +9401,13 @@ user-select: none; /* Standard */
 	@media screen and (max-height: 960px){
     font-size: clamp(1.46rem, 1.9vw, 1.1rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.46rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -8489,19 +9432,71 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.5rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.4rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.2rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.2rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     padding-top:2px; //360x.0010=2px
     font-size: clamp(1rem, 1.9vw, 1.1rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    padding-top:2px; //320x.0010=2px
-    font-size: clamp(1rem, 1.9vw, 1.1rem);
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  padding-top:2px; //320x.0010=2px
+  font-size: clamp(1rem, 1.9vw, 1.1rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-top:2px; //320x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -8949,6 +9944,10 @@ user-select: none; /* Standard */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -8956,10 +9955,22 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.96rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(2.15rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(2.15rem, 1.9vw, 1.1rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -8988,6 +9999,11 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
     padding-top:1.28px; //1280x.0010=1.28px
+    font-size: clamp(1.73rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    padding-top:1.02px; //1024x.0010=1.02px
     font-size: clamp(1.73rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -9026,10 +10042,18 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     font-size: clamp(1.51rem, 1.9vw, 1.1rem);
   }
 	// Vertical Tablet Display
@@ -9045,6 +10069,13 @@ user-select: none; /* Standard */
 	@media screen and (max-height: 960px){
     font-size: clamp(1.46rem, 1.9vw, 1.1rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.46rem, 1.9vw, 1.1rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -9069,19 +10100,71 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.5rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.4rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.2rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1.2rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    padding-top:2px; //360x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
   // Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     padding-top:2px; //360x.0010=2px
     font-size: clamp(1rem, 1.9vw, 1.1rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    padding-top:2px; //320x.0010=2px
-    font-size: clamp(1rem, 1.9vw, 1.1rem);
-  }		
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  padding-top:2px; //320x.0010=2px
+  font-size: clamp(1rem, 1.9vw, 1.1rem);
+}		
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-top:2px; //320x.0010=2px
+    font-size: clamp(1rem, 1.9vw, 1.1rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -9518,6 +10601,10 @@ user-select: none; /* Standard */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  max-width: 24%;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -9525,10 +10612,22 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 854px),and (max-height: 480px){
     max-width: 24%;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  max-width: 24%;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     max-width: 24%;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  max-width: 24%;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  max-width: 24%;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -9556,6 +10655,10 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
     max-width: 24%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    max-width: 42%;
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -9590,10 +10693,18 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    max-width: 42%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    max-width: 42%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     max-width: 42%;
   }
 	// Vertical Tablet Display
@@ -9609,6 +10720,13 @@ user-select: none; /* Standard */
 	@media screen and (max-height: 960px){
     max-width: 42%;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  max-width: 42%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -9633,17 +10751,62 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+	// Vertical Smartphone Display
+    max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+	// Vertical Smartphone Display
+    max-width: 40%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    max-width: 60%;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    max-width: 60%;
-  }	
+    max-width: 40%;
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  max-width: 40%;
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  max-width: 40%;
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -10244,6 +11407,11 @@ width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  margin-right: 6px; //828x.0010=0.828
+    margin-left: 6px;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -10252,11 +11420,26 @@ width: 100%;
     margin-right: 6px; //854x.0010=0.854
     margin-left: 6px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  margin-right: 6px; //828x.0010=0.828
+  margin-left: 6px;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     margin-right: 6px; //828x.0010=0.828
     margin-left: 6px;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  margin-right: 6px; //828x.0010=0.828
+  margin-left: 6px;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  margin-right: 6px; //828x.0010=0.828
+  margin-left: 6px;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -10287,6 +11470,11 @@ width: 100%;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    margin-right: 0.768px; //768x.0010=0.768
+    margin-left: 0.768px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     margin-right: 0.768px; //768x.0010=0.768
     margin-left: 0.768px;
   }
@@ -10328,10 +11516,20 @@ width: 100%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     margin-right: 2px;
     margin-left: 2px;
   }
@@ -10350,6 +11548,14 @@ width: 100%;
     margin-right: 2px;
     margin-left: 2px;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  margin-right: 2px;
+  margin-left: 2px;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -10378,18 +11584,72 @@ width: 100%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; 
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; 
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; 
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; 
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; //360x.0010=0.800
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    margin-right: 3px; //360x.0010=0.800
+    margin-left: 3px;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    margin-right: 4px; //360x.0010=0.800
-    margin-left: 4px;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    margin-right: 4px; //320x.0010=0.800
-    margin-left: 4px;
+    margin-right: 3px; //360x.0010=0.800
+    margin-left: 3px;
+	
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+	@media screen and (max-width: 320px){
+    margin-right: 3px; //320x.0010=0.800
+    margin-left: 3px;
   }	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  margin-right: 3px; //320x.0010=0.800
+  margin-left: 3px;
 }
 //////////////////////////////////////////////////////////////////
 animation: fadeIn ease-in 4.5s;
@@ -10456,7 +11716,7 @@ user-select: none; /* Standard */
 @media screen and (max-width: 5120px),and (max-height: 2880px)
 {
   text-align: left;
-  min-width: 4096px; //5120x0.8=4096
+  width: 4096px; //5120x0.8=4096
   // proof and contact is 11.5rem right
   padding-left: 512px; //5120x0.10=512
   font-size: clamp(2.96rem, 1.9vw, 0.60rem);
@@ -10468,7 +11728,7 @@ user-select: none; /* Standard */
 	// Horizontal Monitor Display
 	@media screen and (max-height: 2304px){
     text-align: left;
-    min-width: 3276.8px; //4096x0.8=3276.8
+    width: 3276.8px; //4096x0.8=3276.8
     // proof and contact is 11.5rem right
     padding-left: 409.6px; //4096x0.10=409.6
     font-size: clamp(2.4rem, 1.9vw, 0.60rem);
@@ -10476,7 +11736,7 @@ user-select: none; /* Standard */
 	// Horizontal Monitor Display
 	@media screen and (max-height: 2160px){
     text-align: left;
-    min-width: 3276.8px; //4096x0.8=3276.8
+    width: 3276.8px; //4096x0.8=3276.8
     // proof and contact is 11.5rem right
     padding-left: 409.6px; //4096x0.10=409.6
     font-size: clamp(2.4rem, 1.9vw, 0.60rem);
@@ -10488,7 +11748,7 @@ user-select: none; /* Standard */
 //Horizontal Monitor Display
 @media screen and (max-width: 3840px),and (max-height: 2160px){
   text-align: left;
-  min-width: 3072px; //3840x0.8=3072
+  width: 3072px; //3840x0.8=3072
   // proof and contact is 11.5rem right
   padding-left: 384px; //3840x0.10=384
   font-size: clamp(2.4rem, 1.9vw, 0.60rem);
@@ -10501,14 +11761,14 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 3200px),and (max-height: 1440px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2880px; //3200x0.9=2880
+    width: 2880px; //3200x0.9=2880
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 3088px),and (max-height: 1440px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2779.2px; //3088x0.9=2779.2
+    width: 2779.2px; //3088x0.9=2779.2
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }	
 }
@@ -10519,7 +11779,7 @@ user-select: none; /* Standard */
 	// Horizontal Monitor Display	
 	@media screen and (max-width: 3000px),and (max-height: 2000px){
     text-align: left;
-    min-width: 2400px; //3000x0.8=2400
+    width: 2400px; //3000x0.8=2400
     // proof and contact is 11.5rem right
     padding-left: 300px; //3000x0.10=300
     font-size: clamp(1.73rem, 1.9vw, 0.60rem);
@@ -10528,7 +11788,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2960px),and (max-height: 1440px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2664px; //2960x0.9=2664
+    width: 2664px; //2960x0.9=2664
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }
 
@@ -10538,13 +11798,13 @@ user-select: none; /* Standard */
 		@media screen and (max-height: 5120px){
       text-align: center;
       padding-left: 0.1rem;
-      min-width: 2592px; //2880x0.9=2592
+      width: 2592px; //2880x0.9=2592
       font-size: clamp(3.4rem, 1.9vw, 0.60rem);
     }
 		// Horizontal Monitor Display
 		@media screen and (max-height: 1800px){
       text-align: left;
-      min-width: 2304px; //2880x0.8=2304
+      width: 2304px; //2880x0.8=2304
       // proof and contact is 11.5rem right
       padding-left: 288px; //2880x0.10=288
       font-size: clamp(1.73rem, 1.9vw, 0.60rem);
@@ -10559,13 +11819,13 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2778px),and (max-height: 1284px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2500.2px; //2778x0.9=2500.2
+    width: 2500.2px; //2778x0.9=2500.2
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }
 	// Horizontal Tablet Display
 	@media screen and (max-width: 2736px),and (max-height: 1824px){
     text-align: left;
-    min-width: 2188.8px; //2736x0.8=2188.8
+    width: 2188.8px; //2736x0.8=2188.8
     // proof and contact is 11.5rem right
     padding-left: 273.6px; //2736x0.10=273.6
     font-size: clamp(1.60rem, 1.9vw, 0.60rem);
@@ -10573,7 +11833,7 @@ user-select: none; /* Standard */
 	// Horizontal Tablet Display
 	@media screen and (max-width: 2732px),and (max-height: 2048px){
     text-align: left;
-    min-width: 2185.6px; //2732x0.8=2185.6
+    width: 2185.6px; //2732x0.8=2185.6
     // proof and contact is 11.5rem right
     padding-left: 273.2px; //2732x0.10=273.2
     font-size: clamp(1.60rem, 1.9vw, 0.60rem);
@@ -10582,7 +11842,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2688px),and (max-height: 1242px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2419.2px; //2688x0.9=2419.2
+    width: 2419.2px; //2688x0.9=2419.2
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }	
 }
@@ -10595,7 +11855,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 1700px){
       text-align: left;
-      min-width: 2048px; //2560x0.8=2048
+      width: 2048px; //2560x0.8=2048
       // proof and contact is 11.5rem right
       padding-left: 256px; //2560x0.10=256
       font-size: clamp(1.60rem, 1.9vw, 0.60rem);
@@ -10603,7 +11863,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 1600px){
       text-align: left;
-      min-width: 2048px; //2560x0.8=2048
+      width: 2048px; //2560x0.8=2048
       // proof and contact is 11.5rem right
       padding-left: 256px; //2560x0.10=256
       font-size: clamp(1.60rem, 1.9vw, 0.60rem);
@@ -10612,7 +11872,7 @@ user-select: none; /* Standard */
 		@media screen and (max-height: 1440px){
       text-align: center;
       padding-left: 0.1rem;
-      min-width: 2304px; //2560x0.9=2304
+      width: 2304px; //2560x0.9=2304
       font-size: clamp(3.4rem, 1.9vw, 0.60rem);
     }	
 	}
@@ -10621,7 +11881,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2532px),and (max-height: 1170px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2278.8px; //2532x0.9=2278.8
+    width: 2278.8px; //2532x0.9=2278.8
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }	
 }
@@ -10633,14 +11893,14 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2436px),and (max-height: 1125px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2192.4px; //2436x0.9=2192.4
+    width: 2192.4px; //2436x0.9=2192.4
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 2400px),and (max-height: 1080px){
     text-align: center;
     padding-left: 0.1rem;
-    min-width: 2160px; //2400x0.8=2160
+    width: 2160px; //2400x0.8=2160
     font-size: clamp(3.4rem, 1.9vw, 0.60rem);
   }	
 }
@@ -10652,7 +11912,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2388px),and (max-height: 1668px){
     // background:green;
     text-align: left;
-    min-width: 1910.4px; //2388x0.8=1910.4
+    width: 1910.4px; //2388x0.8=1910.4
     // proof and contact is 11.5rem right
     padding-left: 119.4px; //2388x0.05=119.4
     font-size: clamp(1.9rem, 1.9vw, 0.60rem);
@@ -10661,7 +11921,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2360px),and (max-height: 1640px){
     // background:green;
     text-align: left;
-    min-width: 1888px; //2360x0.8=1888
+    width: 1888px; //2360x0.8=1888
     // proof and contact is 11.5rem right
     padding-left: 118px; //2360x0.05=118
     font-size: clamp(1.82rem, 1.9vw, 0.60rem);
@@ -10670,7 +11930,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2340px),and (max-height: 1080px){
     // background:green;
     text-align: center;
-    min-width: 2106px; //2340x0.9=2106
+    width: 2106px; //2340x0.9=2106
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(3.15rem, 1.9vw, 0.60rem);
@@ -10679,7 +11939,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 2310px),and (max-height: 1080px){
     // background:green;
     text-align: center;
-    min-width: 2079px; //2310x0.9=2079
+    width: 2079px; //2310x0.9=2079
     // proof and contact is 11.5rem right
     padding-left: 0.1rem
     font-size: clamp(3.55rem, 1.9vw, 0.60rem);
@@ -10690,7 +11950,7 @@ user-select: none; /* Standard */
 		// Vertical Monitor Display
 		@media screen and (max-height: 4096px){
       text-align: center;
-      min-width: 1843.2px; //2304x0.8=1843.2
+      width: 1843.2px; //2304x0.8=1843.2
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(3.01rem, 1.9vw, 0.60rem);
@@ -10699,7 +11959,7 @@ user-select: none; /* Standard */
 		@media screen and (max-height: 1440px){
       // background:green;
       text-align: left;
-      min-width: 1843.2px; //2304x0.8=1843.2
+      width: 1843.2px; //2304x0.8=1843.2
       // proof and contact is 11.5rem right
       padding-left: 230.4px; //2304x0.1=230.4
       font-size: clamp(1.60rem, 1.9vw, 0.60rem);
@@ -10713,7 +11973,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 2280px),and (max-height: 1080px){
     text-align: center;
-      min-width: 1824px; //2280x0.8=1824
+      width: 1824px; //2280x0.8=1824
       // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.96rem, 1.9vw, 0.60rem);
@@ -10721,7 +11981,7 @@ user-select: none; /* Standard */
 	// Horizontal Tablet Display
 	@media screen and (max-width: 2224px),and (max-height: 1668px){
     text-align: left;
-      min-width: 1779.2px; //2224x0.8=1779.2
+      width: 1779.2px; //2224x0.8=1779.2
       // proof and contact is 11.5rem right
       padding-left: 222.4px; //2224x0.1=222.4
       font-size: clamp(1.78rem, 1.9vw, 0.60rem);
@@ -10732,7 +11992,7 @@ user-select: none; /* Standard */
 		// Vertical Monitor Display
 		@media screen and (max-height: 4096px){
       text-align: center;
-      min-width: 1728px; //2160x0.8=1728
+      width: 1728px; //2160x0.8=1728
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.96rem, 1.9vw, 0.60rem);
@@ -10740,7 +12000,7 @@ user-select: none; /* Standard */
 		// Vertical Monitor Display
 		@media screen and (max-height: 3840px){
       text-align: center;
-      min-width: 1728px; //2160x0.8=1728
+      width: 1728px; //2160x0.8=1728
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.96rem, 1.9vw, 0.60rem);
@@ -10748,7 +12008,7 @@ user-select: none; /* Standard */
 		// Horizontal Tablet Display
 		@media screen and (max-height: 1620px){
       text-align: left;
-      min-width: 1728px; //2160x0.8=1728
+      width: 1728px; //2160x0.8=1728
       // proof and contact is 11.5rem right
       padding-left: 324px; //2160x0.15=324
       font-size: clamp(1.42rem, 1.9vw, 0.60rem);
@@ -10756,7 +12016,7 @@ user-select: none; /* Standard */
 		// Horizontal Tablet Display
 		@media screen and (max-height: 1440px){
       text-align: left;
-      min-width: 1728px; //2160x0.8=1728
+      width: 1728px; //2160x0.8=1728
       // proof and contact is 11.5rem right
       padding-left: 324px; //2160x0.15=324
       font-size: clamp(1.42rem, 1.9vw, 0.60rem);
@@ -10772,14 +12032,14 @@ user-select: none; /* Standard */
 		// Vertical Tablet Display
 		@media screen and (max-height: 2732px){
       text-align: center;
-      min-width: 1638.4px; //2048x0.8=1638.4
+      width: 1638.4px; //2048x0.8=1638.4
       padding-left: 0.1rem;
       font-size: clamp(2.33rem, 1.9vw, 0.60rem);
     }	
 		// Horizontal Tablet Display
 		@media screen and (max-height: 1536px){
       text-align: left;
-      min-width: 1638.4px; //2048x0.8=1638.4
+      width: 1638.4px; //2048x0.8=1638.4
       // proof and contact is 11.5rem right
       padding-left: 204.8px; //2048x0.1=204.8
       font-size: clamp(1.42rem, 1.9vw, 0.60rem);
@@ -10788,7 +12048,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-width: 2000px),and (max-height: 3000px){
     text-align: center;
-    min-width: 1638.4px; //2048x0.8=1638.4
+    width: 1638.4px; //2048x0.8=1638.4
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
   }	
@@ -10800,7 +12060,7 @@ user-select: none; /* Standard */
 	// Horizontal Monitor Display
 	@media screen and (max-width: 1921px),and (max-height: 1080px){
     text-align: left;
-    min-width: 1536.8px; //1921x0.8=1536.8
+    width: 1536.8px; //1921x0.8=1536.8
     // proof and contact is 11.5rem right
     padding-left: 288.15px; //1921x0.15=288.15
     font-size: clamp(1rem, 1.9vw, 0.60rem);
@@ -10811,7 +12071,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 1200px){
       text-align: left;
-      min-width: 1536.8px; //1921x0.8=1536.8
+      width: 1536.8px; //1921x0.8=1536.8
       // proof and contact is 11.5rem right
       padding-left: 288.15px; //1921x0.15=288.15
       font-size: clamp(1rem, 1.9vw, 0.60rem);
@@ -10819,7 +12079,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 1080px){
       text-align: left;
-      min-width: 1536.8px; //1921x0.8=1536.8
+      width: 1536.8px; //1921x0.8=1536.8
       // proof and contact is 11.5rem right
       padding-left: 288.15px; //1921x0.15=288.15
       font-size: clamp(1rem, 1.9vw, 0.60rem);
@@ -10833,7 +12093,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display	
 	@media screen and (max-width: 1824px),and (max-height: 2736px){
     text-align: center;
-    min-width: 1459.2px; //1824x0.8=1459.2
+    width: 1459.2px; //1824x0.8=1459.2
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10841,7 +12101,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-width: 1800px),and (max-height: 2880px){
     text-align: center;
-    min-width: 1440px; //1800x0.8=1440
+    width: 1440px; //1800x0.8=1440
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10854,7 +12114,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 1792px),and (max-height: 828px){
     text-align: center;
-    min-width: 1433.6px; //1792x0.8=1433.6
+    width: 1433.6px; //1792x0.8=1433.6
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10867,7 +12127,7 @@ user-select: none; /* Standard */
   // Vertical Monitor Display
 	@media screen and (max-width: 1700px),and (max-height: 2560px){
     text-align: center;
-    min-width: 1360px; //1700x0.8=1360
+    width: 1360px; //1700x0.8=1360
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10876,7 +12136,7 @@ user-select: none; /* Standard */
 	@media screen and (max-width: 1680px),and (max-height: 1050px){
     // background:green;
     text-align: left;
-    min-width: 1008px; //1680x0.6=1008
+    width: 1008px; //1680x0.6=1008
     // proof and contact is 11.5rem right
     padding-left: 84px; //1680x0.05=84
     font-size: clamp(0.91rem, 1.9vw, 0.60rem);
@@ -10885,7 +12145,7 @@ user-select: none; /* Standard */
     // Vertical Tablet Display
     @media screen and (max-height: 2388px){
       text-align: center;
-      min-width: 1360px; //1700x0.8=1360
+      width: 1360px; //1700x0.8=1360
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10893,7 +12153,7 @@ user-select: none; /* Standard */
     // Vertical Tablet Display	
     @media screen and (max-height: 2224px){
       text-align: center;
-      min-width: 1360px; //1700x0.8=1360
+      width: 1360px; //1700x0.8=1360
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10902,7 +12162,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display
 	@media screen and (max-width: 1640px),and (max-height: 2360px){
     text-align: center;
-    min-width: 1312px; //1640x0.8=1312
+    width: 1312px; //1640x0.8=1312
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10910,7 +12170,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display
 	@media screen and (max-width: 1620px),and (max-height: 2160px){
     text-align: center;
-    min-width: 1296px; //1620x0.8=1296
+    width: 1296px; //1620x0.8=1296
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10920,7 +12180,7 @@ user-select: none; /* Standard */
     // Vertical Monitor Display
     @media screen and (max-height: 2560px){
       text-align: center;
-      min-width: 1280px; //1600x0.8=1280
+      width: 1280px; //1600x0.8=1280
       // // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(2.33rem, 1.9vw, 0.60rem);
@@ -10929,7 +12189,7 @@ user-select: none; /* Standard */
     @media screen and (max-height: 1200px){
       // background:green;
       text-align: left;
-      min-width: 1280px; //1600x0.8=1280
+      width: 1280px; //1600x0.8=1280
       // proof and contact is 11.5rem right
       padding-left: 80px; //1600x0.05=80
       font-size: clamp(1.19rem, 1.9vw, 0.60rem);
@@ -10937,7 +12197,7 @@ user-select: none; /* Standard */
     // Horizontal Monitor Display
     @media screen and (max-height: 900px){
       text-align: left;
-      min-width: 1280px; //1600x0.8=1280
+      width: 1280px; //1600x0.8=1280
       // proof and contact is 11.5rem right
       padding-left: 240px; //1600x0.15=240
       font-size: clamp(0.91rem, 1.9vw, 0.60rem);
@@ -10951,7 +12211,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display
 	@media screen and (max-width: 1536px),and (max-height: 2048px){
     text-align: center;
-    min-width: 1228.8px; //1536x0.8=1228.8
+    width: 1228.8px; //1536x0.8=1228.8
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.10rem, 1.9vw, 0.60rem);
@@ -10964,7 +12224,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 3200px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.9rem, 1.9vw, 0.60rem);
@@ -10972,7 +12232,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 3088px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.7rem, 1.9vw, 0.60rem);
@@ -10980,7 +12240,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2960px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.5rem, 1.9vw, 0.60rem);
@@ -10988,7 +12248,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display	
 	@media screen and (max-height: 2560px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -10996,7 +12256,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 2304px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.1rem, 1.9vw, 0.60rem);
@@ -11004,7 +12264,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display
 	@media screen and (max-height: 2160px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.9rem, 1.9vw, 0.60rem);
@@ -11012,7 +12272,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-height: 1440px){
     text-align: center;
-    min-width: 1152px; //1440x0.8=1152
+    width: 1152px; //1440x0.8=1152
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
@@ -11020,7 +12280,7 @@ user-select: none; /* Standard */
   // Horizontal Monitor Display
 	@media screen and (max-height: 900px){
     text-align: left;
-    min-width: 960px; //1440x0.6=864
+    width: 960px; //1440x0.6=864
     // proof and contact is 11.5rem right
     padding-left: 45px; //900x0.05=45
     font-size: clamp(0.91rem, 1.9vw, 0.60rem);
@@ -11034,7 +12294,7 @@ user-select: none; /* Standard */
   // Horizontal Monitor Display
   @media screen and (max-width: 1366px),and (max-height: 768px){
     text-align: left;
-    min-width: 1092.8px; //1366x0.8=1092.8
+    width: 1092.8px; //1366x0.8=1092.8
     // proof and contact is 11.5rem right
     padding-left: 136.6px; //1366x0.1=136.6
     font-size: clamp(0.91rem, 1.9vw, 0.60rem);
@@ -11042,7 +12302,7 @@ user-select: none; /* Standard */
   // Horizontal Smartphone Display
   @media screen and (max-width: 1334px),and (max-height: 750px){
     text-align: center;
-    min-width: 1067.2px; //1334x0.8=1067.2
+    width: 1067.2px; //1334x0.8=1067.2
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.9rem, 1.9vw, 0.60rem);
@@ -11055,7 +12315,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-width: 1284px),and (max-height: 2778px){
     text-align: center;
-    min-width: 1027.2px; //1284x0.8=1027.2
+    width: 1027.2px; //1284x0.8=1027.2
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11066,7 +12326,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 800px){
       text-align: left;
-      min-width: 896px; //1280x0.7=896
+      width: 896px; //1280x0.7=896
       // proof and contact is 11.5rem right
       padding-left: 64px; //1280x0.05=64
       font-size: clamp(0.91rem, 1.9vw, 0.60rem);
@@ -11074,7 +12334,7 @@ user-select: none; /* Standard */
 		// Horizontal Monitor Display
 		@media screen and (max-height: 768px){
       text-align: left;
-      min-width: 896px; //1280x0.7=896
+      width: 896px; //1280x0.7=896
       // proof and contact is 11.5rem right
       padding-left: 64px; //1280x0.05=64
       font-size: clamp(0.90rem, 1.9vw, 0.60rem);
@@ -11082,7 +12342,7 @@ user-select: none; /* Standard */
 		// Horizontal Tablet Display
 		@media screen and (max-height: 720px){
       text-align: left;
-      min-width: 896px; //1280x0.7=896
+      width: 896px; //1280x0.7=896
       // proof and contact is 11.5rem right
       padding-left: 64px; //1280x0.05=64
       font-size: clamp(0.87rem, 1.9vw, 0.60rem);
@@ -11091,7 +12351,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-width: 1242px),and (max-height: 2688px){
     text-align: center;
-    min-width: 993.6px; //1242x0.8=993.6
+    width: 993.6px; //1242x0.8=993.6
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11104,7 +12364,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1920px){
     text-align: center;
-    min-width: 960px; //1200x0.8=960
+    width: 960px; //1200x0.8=960
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11112,7 +12372,7 @@ user-select: none; /* Standard */
 	// Vertical Tablet Display
 	@media screen and (max-height: 1600px){
     text-align: center;
-    min-width: 960px; //1200x0.8=960
+    width: 960px; //1200x0.8=960
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11125,7 +12385,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-width: 1170px),and (max-height: 2532px){
     text-align: center;
-    min-width: 936px; //1170x0.8=936
+    width: 936px; //1170x0.8=936
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11133,7 +12393,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 1136px),and (max-height: 640px){
     text-align: center;
-    min-width: 908.8px; //1136x0.8=908.8
+    width: 908.8px; //1136x0.8=908.8
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11141,7 +12401,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-width: 1125px),and (max-height: 2436px){
     text-align: center;
-    min-width: 900px; //1125x0.8=900
+    width: 900px; //1125x0.8=900
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11154,7 +12414,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2400px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 864px; //1080x0.8=864
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.2rem, 1.9vw, 0.60rem);
@@ -11162,7 +12422,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2340px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 864px; //1080x0.8=864
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2.1rem, 1.9vw, 0.60rem);
@@ -11170,7 +12430,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2310px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 864px; //1080x0.8=864
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(2rem, 1.9vw, 0.60rem);
@@ -11178,7 +12438,7 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2280px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 864px; //1080x0.8=864
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.9rem, 1.9vw, 0.60rem);
@@ -11186,7 +12446,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1921px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 864px; //1080x0.8=864
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
@@ -11194,7 +12454,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1920px){
     text-align: center;
-    min-width: 864px; //1080x0.8=864
+    width: 777.6px; //1080x0.72=777.6
     // // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
@@ -11202,7 +12462,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-width: 1050px),and (max-height: 1680px){
     text-align: center;
-    min-width: 840px; //1050x0.8=840
+    width: 840px; //1050x0.8=840
     // proof and contact is 11.5rem right
     padding-left: 52.5px; //1050x0.05=52.5
     font-size: clamp(1.5rem, 1.9vw, 0.60rem);
@@ -11215,7 +12475,7 @@ user-select: none; /* Standard */
 	// Horizontal Tablet Display
 	@media screen and (max-height: 768px){
     text-align: left;
-    min-width: 921.6px; //1024x0.9=921.6
+    width: 921.6px; //1024x0.9=921.6
     // proof and contact is 11.5rem right
     padding-left: 153.6px; //1024x0.15=153.6
     font-size: clamp(0.82rem, 1.9vw, 0.60rem);
@@ -11223,7 +12483,7 @@ user-select: none; /* Standard */
 	// Horizontal Tablet Display
 	@media screen and (max-height: 600px){
     text-align: left;
-    min-width: 921.6px; //1024x0.9=921.6
+    width: 921.6px; //1024x0.9=921.6
     // proof and contact is 11.5rem right
     padding-left: 102.4px; //1024x0.1=102.4
     font-size: clamp(0.82rem, 1.9vw, 0.60rem);
@@ -11236,7 +12496,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-height: 640px){
     text-align: center;
-    min-width: 768px; //960x0.8=768
+    width: 768px; //960x0.8=768
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.42rem, 1.9vw, 0.60rem);
@@ -11244,7 +12504,7 @@ user-select: none; /* Standard */
 	// Horizontal Smartphone Display
 	@media screen and (max-height: 540px){
     text-align: center;
-    min-width: 768px; //960x0.8=768
+    width: 768px; //960x0.8=768
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.42rem, 1.9vw, 0.60rem);
@@ -11257,7 +12517,7 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1600px){
     text-align: center;
-    min-width: 720px; //900x0.8=720
+    width: 720px; //900x0.8=720
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.36rem, 1.9vw, 0.60rem);
@@ -11265,38 +12525,70 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1440px){
     text-align: center;
-    min-width: 720px; //900x0.8=720
+    width: 720px; //900x0.8=720
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.36rem, 1.9vw, 0.60rem);
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  text-align: center;
+    width: 707.2px; //884x0.8=707.2
+    // proof and contact is 11.5rem right
+    padding-left: 0.1rem;
+    font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 854px),and (max-height: 480px){
     text-align: center;
-    min-width: 683.2px; //854x0.8=683.2
+    width: 683.2px; //854x0.8=683.2
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.2rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  text-align: center;
+  width: 667.2px; //834x0.8=667.2
+  // proof and contact is 11.5rem right
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     text-align: center;
-    min-width: 662.4px; //828x0.8=662.4
+    width: 662.4px; //828x0.8=662.4
     // proof and contact is 11.5rem right
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  text-align: center;
+  width: 656px; //820x0.8=656
+  // proof and contact is 11.5rem right
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  text-align: center;
+  width: 648px; //828x0.8=648
+  // proof and contact is 11.5rem right
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
 		@media screen and (max-height: 1280px){
       text-align: center;
-      min-width: 640px; //800x0.8=640
+      width: 640px; //800x0.8=640
       // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(1.2rem, 1.9vw, 0.60rem);
@@ -11304,7 +12596,7 @@ user-select: none; /* Standard */
 		// Horizontal Tablet Display
 		@media screen and (max-height: 600px){
       text-align: center;
-      min-width: 640px; //800x0.8=640
+      width: 640px; //800x0.8=640
       // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(1.2rem, 1.9vw, 0.60rem);
@@ -11312,7 +12604,7 @@ user-select: none; /* Standard */
 		// Horizontal Smartphone Display
 		@media screen and (max-height: 480px){
       text-align: center;
-      min-width: 640px; //800x0.8=640
+      width: 640px; //800x0.8=640
       // proof and contact is 11.5rem right
       padding-left: 0.1rem;
       font-size: clamp(1.2rem, 1.9vw, 0.60rem);
@@ -11326,28 +12618,35 @@ user-select: none; /* Standard */
 	// Vertical Monitor Display
 	@media screen and (max-height: 1366px){
     padding-left: 0.1rem;
-    min-width: 614.4px; //768x0.8=614.4
+    width: 614.4px; //768x0.8=614.4
     text-align: center;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
     padding-left: 0.1rem;
-    min-width: 614.4px; //768x0.8=614.4
+    width: 614.4px; //768x0.8=614.4
+    text-align: center;
+    font-size: clamp(1.18rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    padding-left: 0.1rem;
+    width: 614.4px; //768x0.8=614.4
     text-align: center;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     padding-left: 0.1rem;
-    min-width: 614.4px; //768x0.8=614.4
+    width: 614.4px; //768x0.8=614.4
     text-align: center;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
   }
 	// Vertical Smartphone Display
 	@media screen and (max-width: 750px),and (max-height: 1334px){
     padding-left: 0.1rem;
-    min-width: 600px; //750x0.8=600
+    width: 600px; //750x0.8=600
     text-align: center;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
   }	
@@ -11358,7 +12657,7 @@ user-select: none; /* Standard */
 {
 	// Vertical Tablet Display
 	@media screen and (max-height: 1280px){
-    min-width: 655.2px; //720x0.91=655.2
+    width: 655.2px; //720x0.91=655.2
     text-align: center;
     font-size: clamp(1.15rem, 1.9vw, 0.60rem);
   }	
@@ -11369,30 +12668,42 @@ user-select: none; /* Standard */
 {
 	// Vertical Smartphone Display
 	@media screen and (max-height: 1136px){
-    min-width: 582.4px; //640x0.91=582.4
+    width: 582.4px; //640x0.91=582.4
     text-align: center;
     font-size: clamp(0.99rem, 1.9vw, 0.60rem);
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 960px){
-    min-width: 582.4px; //640x0.91=582.4
+    width: 582.4px; //640x0.91=582.4
     text-align: center;
     font-size: clamp(0.99rem, 1.9vw, 0.60rem);
   }	
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
-    min-width: 546px; //600x0.91=546
+    width: 546px; //600x0.91=546
+    text-align: center;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    width: 546px; //600x0.91=546
+    text-align: center;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
+    width: 546px; //600x0.91=546
     text-align: center;
     font-size: clamp(0.94rem, 1.9vw, 0.60rem);
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
-    min-width: 546px; //600x0.91=546
+    width: 546px; //600x0.91=546
     text-align: center;
     font-size: clamp(0.94rem, 1.9vw, 0.60rem);
   }
@@ -11403,10 +12714,19 @@ user-select: none; /* Standard */
 {
 	// Vertical Smartphone Display
 	@media screen and (max-height: 960px){
-    min-width: 540.91px; //540x0.91=540.91
+    width: 540.91px; //540x0.91=540.91
     text-align: center;
     font-size: clamp(0.90rem, 1.9vw, 0.60rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  width: 458.64px; //504x0.91=458.64
+  text-align: center;
+  font-size: clamp(0.89rem, 1.9vw, 0.60rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -11415,51 +12735,118 @@ user-select: none; /* Standard */
 	// Vertical Smartphone Display
 	@media screen and (max-height: 854px){
     padding-left: 0.1rem;
-    min-width: 436.8px; //480x0.91=436.8
+    width: 436.8px; //480x0.91=436.8
     text-align: center;
     font-size: clamp(0.87rem, 1.9vw, 0.60rem);
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 800px){
     padding-left: 0.1rem;
-    min-width: 436.8px; //480x0.91=436.8
+    width: 436.8px; //480x0.91=436.8
     text-align: center;
     font-size: clamp(0.87rem, 1.9vw, 0.60rem);
   }
+
 	// Horizontal Smartphone Display
-	@media screen and (max-height: 360px){
+  @media screen and (max-height: 360px)
     padding-left: 0.1rem;
-    min-width: 436.8px; //480x0.91=436.8
+    width: 436.8px; //480x0.91=436.8
     text-align: center;
     font-size: clamp(0.78rem, 1.9vw, 0.60rem);
-  }
-	// Horizontal Smartphone Display
-	@media screen and (max-height: 320px){
-    padding-left: 0.1rem;
-  min-width: 436.8px; //480x0.91=436.8
+    }
+    // Horizontal Smartphone Display
+    @media screen and (max-height: 320px){
+      padding-left: 0.1rem;
+    width: 436.8px; //480x0.91=436.8
+    text-align: center;
+    font-size: clamp(0.78rem, 1.9vw, 0.60rem);
+    }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  padding-left: 0.1rem;
+  max-width: 311.04px; //432x0.72=311.04
   text-align: center;
-  font-size: clamp(0.78rem, 1.9vw, 0.60rem);
-  }	
+  font-size: clamp(0.73rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  padding-left: 0.1rem;
+  max-width: 308.16px; //428x0.72=308.16
+  text-align: center;
+  font-size: clamp(0.70rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  padding-left: 0.1rem;
+  max-width: 295.92px; //411x0.72=295.92
+  text-align: center;
+  font-size: clamp(0.64rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    padding-left: 0.1rem;
+    max-width: 280.8px; //390x0.72=280.8
+    text-align: center;
+    font-size: clamp(0.63rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    padding-left: 0.1rem;
+    max-width: 276.48px; //384x0.72=276.48
+    text-align: center;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    padding-left: 0.1rem;
+    max-width: 270px; //375x0.72=270
+    text-align: center;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     padding-left: 0.1rem;
-    min-width: 324px; //360x0.9=324
+    max-width: 259.2px; //360x0.72=259.2
     text-align: center;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    padding-left: 0.1rem;
-    min-width: 288px; //320x0.9=288
-    text-align: center;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }	
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  padding-left: 0.1rem;
+  max-width: 230.4px; //320x0.72=230.4
+  text-align: center;
+  font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-left: 0.1rem;
+  max-width: 172px; //240x0.72=172
+  text-align: center;
+  font-size: clamp(0.49rem, 1.9vw, 0.49rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -11972,6 +13359,10 @@ box-shadow: /* ie */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  min-width:100%;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -11979,10 +13370,22 @@ box-shadow: /* ie */
 	@media screen and (max-width: 854px),and (max-height: 480px){
     min-width:100%;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  min-width:100%;
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     min-width:100%;
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  min-width:100%;
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  min-width:100%;
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -12009,6 +13412,10 @@ box-shadow: /* ie */
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    min-width:100%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     min-width:100%;
   }
 	// Vertical Tablet Display
@@ -12044,10 +13451,18 @@ box-shadow: /* ie */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    min-width:100%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    min-width:100%;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     min-width:100%;
   }
 	// Vertical Tablet Display
@@ -12063,6 +13478,13 @@ box-shadow: /* ie */
 	@media screen and (max-height: 960px){
     min-width:100%;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  min-width:100%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -12087,16 +13509,62 @@ box-shadow: /* ie */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    min-width:100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     min-width:100%;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    min-width:100%;
-  }	
+}
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  min-width:100%;
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  min-width:100%;
 }
 //////////////////////////////////////////////////////////////////
 `
@@ -12742,6 +14210,12 @@ color:white;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -12751,12 +14225,30 @@ color:white;
     padding-left: 0.1rem;
     font-size: clamp(1.2rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     text-align:center;
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -12791,6 +14283,12 @@ color:white;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(1.18rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     text-align:center;
     padding-left: 0.1rem;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
@@ -12838,10 +14336,22 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    text-align: center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    text-align: center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     text-align: center;
     padding-left: 0.1rem;
     font-size: clamp(0.94rem, 1.9vw, 0.60rem);
@@ -12863,6 +14373,15 @@ color:white;
     padding-left: 0.1rem;
     font-size: clamp(0.90rem, 1.9vw, 0.60rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  text-align: center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.89rem, 1.9vw, 0.60rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -12895,21 +14414,80 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.73rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.70rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.64rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.63rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     text-align:center;
     padding-left: 0.1rem;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    text-align:center;
-    padding-left: 0.1rem;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }	
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-left: 0.1rem;
+  text-align: center;
+  font-size: clamp(0.49rem, 1.9vw, 0.49rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -13556,6 +15134,12 @@ color:white;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -13565,12 +15149,30 @@ color:white;
     padding-left: 0.1rem;
     font-size: clamp(1.2rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     text-align:center;
     padding-left: 0.1rem;
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -13604,6 +15206,12 @@ color:white;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(1.18rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     text-align:center;
     padding-left: 0.1rem;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
@@ -13651,10 +15259,22 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    text-align: center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    text-align: center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     text-align: center;
     padding-left: 0.1rem;
     font-size: clamp(0.94rem, 1.9vw, 0.60rem);
@@ -13676,6 +15296,15 @@ color:white;
     padding-left: 0.1rem;
     font-size: clamp(0.90rem, 1.9vw, 0.60rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  text-align: center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.89rem, 1.9vw, 0.60rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -13708,21 +15337,80 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.73rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.70rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.64rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.63rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    text-align:center;
+    padding-left: 0.1rem;
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     text-align:center;
     padding-left: 0.1rem;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    text-align:center;
-    padding-left: 0.1rem;
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }	
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  text-align:center;
+  padding-left: 0.1rem;
+  font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-left: 0.1rem;
+  text-align: center;
+  font-size: clamp(0.49rem, 1.9vw, 0.49rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -14463,6 +16151,12 @@ user-select: none; /* Standard */
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  text-align: center;
+  padding-left: 0.1rem;
+  min-width: 795.6px; //884x0.9=795.6
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -14472,12 +16166,30 @@ user-select: none; /* Standard */
     padding-left: 0.1rem;
     min-width: 768.6px; //854x0.9=768.6
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  text-align: center;
+  padding-left: 0.1rem;
+  min-width: 750.6px; //834x0.9=750.6
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     text-align: center;
     padding-left: 0.1rem;
     min-width: 745.2px; //828x0.9=745.2
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  text-align: center;
+  padding-left: 0.1rem;
+  min-width: 738px; //820x0.9=738
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  text-align: center;
+  padding-left: 0.1rem;
+  min-width: 729px; //810x0.9=729
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -14513,6 +16225,13 @@ user-select: none; /* Standard */
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    text-align: center;
+    min-width: 537.6px; //768x0.7=537.6
+    // // proof and contact is 11.5rem right
+    padding-left: 0.1rem;
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     text-align: center;
     min-width: 537.6px; //768x0.7=537.6
     // // proof and contact is 11.5rem right
@@ -14563,10 +16282,22 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    text-align: center;
+    padding-left: 0.1rem;
+    min-width: 546px; //600x0.91=546
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    text-align: center;
+    padding-left: 0.1rem;
+    min-width: 546px; //600x0.91=546
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     text-align: center;
     padding-left: 0.1rem;
     min-width: 546px; //600x0.91=546
@@ -14588,6 +16319,15 @@ user-select: none; /* Standard */
     padding-left: 0.1rem;
     min-width: 491.4px; //540x0.91=491.4
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  text-align: center;
+  padding-left: 0.1rem;
+  min-width: 483.84px; //504x0.91=483.84
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -14620,21 +16360,80 @@ user-select: none; /* Standard */
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  min-width: 388.8px; //432x0.9=388.8
+  text-align: center;
+  padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  min-width: 385.2px; //428x0.9=385.2
+  text-align: center;
+  padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  min-width: 369.9px; //411x0.9=369.9
+  text-align: center;
+  padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  min-width: 351px; //390x0.9=351
+  text-align: center;
+  padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    min-width: 345px; //384x0.9=345
+    text-align: center;
+    padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+    min-width: 337px; //375x0.9=337
+    text-align: center;
+    padding-left: 0.1rem;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     min-width: 324px; //360x0.9=324
     text-align: center;
     padding-left: 0.1rem;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    min-width: 288px; //320x0.9=288
-    text-align: center;
-    padding-left: 0.1rem;
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  min-width: 288px; //320x0.9=288
+  text-align: center;
+  padding-left: 0.1rem;
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  padding-left: 0.1rem;
+  max-width: 172px; //240x0.72=172
+  text-align: center;
+}	
 //////////////////////////////////////////////////////////////////
 `
 const LinkedInIcon = styled(AiFillLinkedin)`
@@ -15129,6 +16928,10 @@ color:#1227DC;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -15136,10 +16939,22 @@ color:#1227DC;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.6rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.9rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -15166,6 +16981,10 @@ color:#1227DC;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    font-size: clamp(1.7rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     font-size: clamp(1.7rem, 1.4vw, 0.2rem);
   }
 	// Vertical Tablet Display
@@ -15199,10 +17018,18 @@ color:#1227DC;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    font-size: clamp(1.7rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.7rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     font-size: clamp(1.7rem, 1.4vw, 0.2rem);
   }
 	// Vertical Tablet Display
@@ -15218,6 +17045,13 @@ color:#1227DC;
 	@media screen and (max-height: 960px){
     font-size: clamp(1.5rem, 1.4vw, 0.2rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.45rem, 1.4vw, 0.2rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -15242,17 +17076,70 @@ color:#1227DC;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.6rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.5rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.4rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.4rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.2rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+  color:#1227DC;
+    font-size: clamp(1.2rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
+  color:#1227DC;
     font-size: clamp(1.2rem, 1.4vw, 0.2rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(1.2rem, 1.4vw, 0.2rem);
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  color:#1227DC;
+  font-size: clamp(1.2rem, 1.4vw, 0.2rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(1.2rem, 1.4vw, 0.2rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 const PhoneIcon = styled(MdPhoneInTalk)`
@@ -15743,6 +17630,10 @@ text-align: justify;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -15750,10 +17641,22 @@ text-align: justify;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.5rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.9rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -15780,6 +17683,10 @@ text-align: justify;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    font-size: clamp(1.6rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     font-size: clamp(1.6rem, 1.4vw, 0.2rem);
   }
 	// Vertical Tablet Display
@@ -15815,10 +17722,18 @@ text-align: justify;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    font-size: clamp(1.6rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.6rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     font-size: clamp(1.6rem, 1.4vw, 0.2rem);
   }
 	// Vertical Tablet Display
@@ -15834,6 +17749,13 @@ text-align: justify;
 	@media screen and (max-height: 960px){
     font-size: clamp(1.5rem, 1.4vw, 0.2rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.45rem, 1.4vw, 0.2rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -15858,17 +17780,70 @@ text-align: justify;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.5rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.4rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.3rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.3rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+	// Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+	// Vertical Smartphone Display
+  color:black;
+    font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
+  color:black;
     font-size: clamp(1.1rem, 1.4vw, 0.2rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(1.1rem, 1.4vw, 0.2rem);
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  color:black;
+  font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 const EmailIcon = styled(MdEmail)`
@@ -16361,6 +18336,10 @@ color:#ff1010;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -16368,10 +18347,22 @@ color:#ff1010;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.5rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.9rem, 1.4vw, 0.2rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.9rem, 1.4vw, 0.2rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -16398,6 +18389,10 @@ color:#ff1010;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    font-size: clamp(1.7rem, 1.4vw, 0.2rem); 
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     font-size: clamp(1.7rem, 1.4vw, 0.2rem); 
   }
 	// Vertical Tablet Display
@@ -16433,10 +18428,18 @@ color:#ff1010;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    font-size: clamp(1.64rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.64rem, 1.4vw, 0.2rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     font-size: clamp(1.64rem, 1.4vw, 0.2rem);
   }
 	// Vertical Tablet Display
@@ -16452,6 +18455,13 @@ color:#ff1010;
 	@media screen and (max-height: 960px){
     font-size: clamp(1.6rem, 1.4vw, 0.2rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.55rem, 1.4vw, 0.2rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -16476,17 +18486,70 @@ color:#ff1010;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.7rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.6rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.5rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.5rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+	// Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.3rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+	// Vertical Smartphone Display
+  color:#ff1010; 
+    font-size: clamp(1.3rem, 1.4vw, 0.2rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    font-size: clamp(1.1rem, 1.4vw, 0.2rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(1.1rem, 1.4vw, 0.2rem);
-  }	
+  color:#ff1010; 
+    font-size: clamp(1.3rem, 1.4vw, 0.2rem);
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  color:#ff1010; 
+  font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(1.1rem, 1.4vw, 0.2rem);
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -17117,6 +19180,10 @@ padding: 0.1rem;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -17124,10 +19191,22 @@ padding: 0.1rem;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.42rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.51rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -17157,6 +19236,11 @@ padding: 0.1rem;
 	@media screen and (max-height: 1280px){
     font-size: clamp(1.2rem, 1.9vw, 0.60rem); 
     padding-top:1.28px; //1280x.001=1.28
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    font-size: clamp(1.2rem, 1.9vw, 0.60rem); 
+    padding-top:1.02px; //1024x.001=1.02
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -17196,12 +19280,22 @@ padding: 0.1rem;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
     padding-top:1px; //1024x.001=1.024
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //800x.001=0.8
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
+    font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //800x.001=0.8
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
@@ -17218,6 +19312,14 @@ padding: 0.1rem;
     font-size: clamp(1.1rem, 1.9vw, 0.60rem); 
     padding-top:1px; //480x.001=1.33
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.1rem, 1.9vw, 0.60rem); 
+  padding-top:1px; //480x.001=1.33
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -17246,19 +19348,71 @@ padding: 0.1rem;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.90rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.87rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.86rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.85rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+	// Vertical Smartphone Display
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+	// Vertical Smartphone Display
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    font-size: clamp(0.82rem, 1.9vw, 0.60rem); 
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
     padding-top:1px; //480x.001=1.33
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(0.82rem, 1.9vw, 0.60rem); 
-    padding-top:1px; //480x.001=1.33
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  font-size: clamp(0.76rem, 1.9vw, 0.60rem); 
+  padding-top:1px; //480x.001=1.33
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(0.72rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -17902,6 +20056,10 @@ text-align: justify;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -17909,10 +20067,22 @@ text-align: justify;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.42rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.51rem, 1.9vw, 1.1rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.51rem, 1.9vw, 1.1rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -17942,6 +20112,11 @@ text-align: justify;
 	@media screen and (max-height: 1280px){
     font-size: clamp(1.2rem, 1.9vw, 0.60rem); 
     padding-top:1.28px; //1280x.001=1.28
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
+    font-size: clamp(1.2rem, 1.9vw, 0.60rem); 
+    padding-top:1.02px; //1024x.001=1.02
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
@@ -17981,12 +20156,22 @@ text-align: justify;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
     padding-top:1px; //1024x.001=1.024
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //800x.001=0.8
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
+    font-size: clamp(1.15rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //800x.001=0.8
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
@@ -18003,6 +20188,14 @@ text-align: justify;
     font-size: clamp(1.1rem, 1.9vw, 0.60rem); 
     padding-top:1px; //480x.001=1.33
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  font-size: clamp(1.1rem, 1.9vw, 0.60rem); 
+  padding-top:1px; //480x.001=1.33
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -18031,19 +20224,71 @@ text-align: justify;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.90rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.87rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.86rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.85rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+	// Vertical Smartphone Display
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+	// Vertical Smartphone Display
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    font-size: clamp(0.82rem, 1.9vw, 0.60rem); 
+    font-size: clamp(0.79rem, 1.9vw, 0.60rem); 
     padding-top:1px; //480x.001=1.33
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(0.82rem, 1.9vw, 0.60rem); 
-    padding-top:1px; //480x.001=1.33
-  }	
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  font-size: clamp(0.76rem, 1.9vw, 0.60rem); 
+  padding-top:1px; //480x.001=1.33
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(0.72rem, 1.9vw, 0.60rem); 
+    padding-top:1px; //480x.001=1.33
+}	
 //////////////////////////////////////////////////////////////////
 `
 
@@ -18647,6 +20892,10 @@ color:white;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -18654,10 +20903,22 @@ color:white;
 	@media screen and (max-width: 854px),and (max-height: 480px){
     font-size: clamp(1.2rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 834px){
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     font-size: clamp(1.6rem, 1.9vw, 0.60rem);
   }
+  // Vertical Smartphone Display
+@media screen and (max-width: 820px){
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
+// Vertical Smartphone Display
+@media screen and (max-width: 810px){
+  font-size: clamp(1.6rem, 1.9vw, 0.60rem);
+}
 	@media screen and (max-width: 800px){
 
 		// Vertical Monitor Display
@@ -18685,6 +20946,11 @@ color:white;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
+    text-align: center;
+    font-size: clamp(1.18rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 1076px){
     text-align: center;
     font-size: clamp(1.18rem, 1.9vw, 0.60rem);
   }
@@ -18726,10 +20992,20 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
+    text-align: center;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 962px){
+    text-align: center;
+    font-size: clamp(0.94rem, 1.9vw, 0.60rem);
+  }
+  // Vertical Tablet Display
+	@media screen and (max-height: 960px){
     text-align: center;
     font-size: clamp(0.94rem, 1.9vw, 0.60rem);
   }
@@ -18748,6 +21024,14 @@ color:white;
     text-align: center;
     font-size: clamp(0.90rem, 1.9vw, 0.60rem);
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+  text-align: center;
+  font-size: clamp(0.89rem, 1.9vw, 0.60rem);
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -18777,17 +21061,64 @@ color:white;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.73rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.70rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+  // Vertical Smartphone Display
+  font-size: clamp(0.64rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.63rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 384px)
+{	
+  // Vertical Smartphone Display
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+  // Vertical Smartphone Display
+
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
 	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    font-size: clamp(0.51rem, 1.9vw, 0.51rem);
-  }	
+    font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+
 }
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  font-size: clamp(0.55rem, 1.9vw, 0.51rem);
+}	
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px){
+  font-size: clamp(0.49rem, 1.9vw, 0.49rem);
+}	
 //////////////////////////////////////////////////////////////////
 background: none;
 text-align: center;

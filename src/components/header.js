@@ -452,25 +452,25 @@ border: 0.1rem white;
 	@media screen and (max-height: 3200px){
     margin-top: 4.8px; //0.0015x 3200=4.8
     margin-bottom: 4.8px; 
-    width: 73%;
+    width: 100%;
   }
   // Vertical Smartphone Display
 	@media screen and (max-height: 3088px){
     margin-top: 4.632px; //0.0015x 3088=4.632
     margin-bottom: 4.632px; 
-    width: 73%;
+    width: 100%;
   }
   // Vertical Smartphone Display
 	@media screen and (max-height: 2960px){
     margin-top: 4.44px; //0.0015x 2960=4.44
     margin-bottom: 4.44px; 
-    width: 73%;
+    width: 100%;
   }
   // Vertical Smartphone Display	
 	@media screen and (max-height: 2560px){
     margin-top: 3.84px; //0.0015x 2560=3.84
     margin-bottom: 3.84px; 
-    width: 73%;
+    width: 100%;
   }
   // Vertical Monitor Display
 	@media screen and (max-height: 2304px){
@@ -524,7 +524,7 @@ border: 0.1rem white;
 	@media screen and (max-width: 1284px),and (max-height: 2778px){
     margin-top: 4.16px; //0.0015x2778=4.16
     margin-bottom: 4.16px; 
-    width: 78%;
+    width: 100%;
   }
 	
 	@media screen and (max-width: 1280px){
@@ -552,7 +552,7 @@ border: 0.1rem white;
 	@media screen and (max-width: 1242px),and (max-height: 2688px){
     margin-top: 4px; //0.0015x2668=4
     margin-bottom: 4px; 
-    width: 78%;
+    width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
@@ -580,7 +580,7 @@ border: 0.1rem white;
 	@media screen and (max-width: 1170px),and (max-height: 2532px){
     margin-top: 3.798px; //0.0015x 2532=3.798
     margin-bottom: 3.798px; 
-    width: 78%;
+    width: 100%;
   }
 	// Horizontal Smartphone Display
 	@media screen and (max-width: 1136px),and (max-height: 640px){
@@ -592,7 +592,7 @@ border: 0.1rem white;
 	@media screen and (max-width: 1125px),and (max-height: 2436px){
     margin-top: 3.654px; //0.0015x 2436=3.654
     margin-bottom: 3.654px; 
-    width: 78%;
+    width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
@@ -603,25 +603,25 @@ border: 0.1rem white;
 	@media screen and (max-height: 2400px){
     margin-top: 3.6px; //0.0015x 2400=3.6
     margin-bottom: 3.6px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2340px){
     margin-top: 3.51px; //0.0015x 2340=3.51
     margin-bottom: 3.51px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2310px){
     margin-top: 3.465px; //0.0015x 2310=3.465
     margin-bottom: 3.465px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 2280px){
     margin-top: 3.42px; //0.0015x 2340=3.42
     margin-bottom: 3.42px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1921px){
@@ -695,6 +695,12 @@ border: 0.1rem white;
   }	
 }
 //////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 884px){
+  margin-top: 2.688px; //0.0015x 1792=2.688
+  margin-bottom: 2.688px; 
+  width: 100%;
+}
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 854px)
 {
@@ -704,11 +710,29 @@ border: 0.1rem white;
     margin-bottom: 1px; 
     width: 60%;
   }
+  // Vertical Smartphone Display
+  @media screen and (max-width: 834px){
+    margin-top: 2.688px; //0.0015x 1792=2.688
+    margin-bottom: 2.688px; 
+    width: 100%;
+  }
 	// Vertical Smartphone Display
 	@media screen and (max-width: 828px),and (max-height: 1792px){
     margin-top: 2.688px; //0.0015x 1792=2.688
     margin-bottom: 2.688px; 
-    width: 73%;
+    width: 100%;
+  }
+  // Vertical Smartphone Display
+  @media screen and (max-width: 820px){
+    margin-top: 2.688px; //0.0015x 1792=2.688
+    margin-bottom: 2.688px; 
+    width: 100%;
+  }
+  // Vertical Smartphone Display
+  @media screen and (max-width: 810px){
+    margin-top: 2.688px; //0.0015x 1792=2.688
+    margin-bottom: 2.688px; 
+    width: 100%;
   }
 	@media screen and (max-width: 800px){
 
@@ -716,7 +740,7 @@ border: 0.1rem white;
 		@media screen and (max-height: 1280px){
       margin-top: 1.92px; //0.0015x 1280=1.92
       margin-bottom: 1.92px; 
-      width: 60%;
+      width: 100%;
     }
 		// Horizontal Tablet Display
 		@media screen and (max-height: 600px){
@@ -741,25 +765,31 @@ border: 0.1rem white;
 	@media screen and (max-height: 1366px){
     margin-top: 2.049px; //0.0015x 1366=2.049
     margin-bottom: 2.049px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Monitor Display
 	@media screen and (max-height: 1280px){
     margin-top: 1.92px; //0.0015x 1280=1.92
     margin-bottom: 1.92px; 
-    width: 78%;
+    width: 100%;
+  }
+  // Vertical Smartphone Display
+	@media screen and (max-height: 1076px){
+    margin-top: 1.536px; //0.0015x 1024=1.536
+    margin-bottom: 1.536px; 
+    width: 100%;
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     margin-top: 1.536px; //0.0015x 1024=1.536
     margin-bottom: 1.536px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-width: 750px),and (max-height: 1334px){
     margin-top: 2px; //0.0015x 1334=2
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
@@ -770,7 +800,7 @@ border: 0.1rem white;
 	@media screen and (max-height: 1280px){
     margin-top: 2px; //0.0015x 1280=1.2
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
@@ -781,31 +811,46 @@ border: 0.1rem white;
 	@media screen and (max-height: 1136px){
     margin-top: 2px; //0.0015x 1136=1.7
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 960px){
     margin-top: 2px; //0.0015x 960=1.4
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }	
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-@media screen and (max-width: 600px){
+@media screen and (max-width: 601px){
 	
+  
 	// Vertical Tablet Display
 	@media screen and (max-height: 1024px){
     margin-top: 2px; //0.0015x 1024=1.5
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
+  }
+  // Vertical Smartphone Display
+	@media screen and (max-height: 906px){
+    margin-top: 2px; //0.0015x 960=1.44
+  margin-bottom: 2px; 
+  width: 100%;
+  }
+  // Vertical SmartPhone Display
+	@media screen and (max-height: 900px){
+    margin-top: 2px; //0.0015x 960=1.44
+  margin-bottom: 2px; 
+  width: 100%;
   }
 	// Vertical Tablet Display
 	@media screen and (max-height: 800px){
     margin-top: 2px; //0.0015x 1024=1.5
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }
+
+  
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -815,8 +860,17 @@ border: 0.1rem white;
 	@media screen and (max-height: 960px){
     margin-top: 2px; //0.0015x 960=1.44
     margin-bottom: 2px; 
-    width: 78%;
+    width: 100%;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 504px)
+{
+	// Vertical Smartphone Display
+    margin-top: 2px; //0.0015x 960=1.44
+    margin-bottom: 2px; 
+    width: 100%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -826,43 +880,98 @@ border: 0.1rem white;
 	@media screen and (max-height: 854px){
     margin-top: 1px; //0.0015x 854=1.2
     margin-bottom: 1px; 
-    width: 78%;
+    width: 100%;
   }
 	// Vertical Smartphone Display
 	@media screen and (max-height: 800px){
     margin-top: 1px; //0.0015x 800=1.2
     margin-bottom: 1px; 
-    width: 78%;
+    width: 100%;
   }
 	// Horizontal Smartphone Display
 	@media screen and (max-height: 360px){
     margin-top: 1px; //0.0015x 360=0.54
     margin-bottom: 1px; 
-    width: 78%;
+    width: 100%;
   }
 	// Horizontal Smartphone Display
 	@media screen and (max-height: 320px){
     margin-top: 1px; //0.0015x 320=0.48
     margin-bottom: 1px; 
-    width: 78%;
+    width: 100%;
   }	
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 432px)
+{	
+    margin-top: 1px; 
+    margin-bottom: 1px; 
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 428px)
+{	
+    margin-top: 1px;
+    margin-bottom: 1px; 
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 414px)
+{	
+    margin-top: 1px; 
+    margin-bottom: 1px; 
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 400px)
+{	
+    margin-top: 1px;
+    margin-bottom: 1px; 
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 385px)
+{	
+    margin-top: 1px; //0.0015x 480=2
+    margin-bottom: 1px; 
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 375px)
+{	
+    margin-top: 1px; //0.0015x 480=2
+    margin-bottom: 1px; 
+    width: 100%;
 }
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 @media screen and (max-width: 360px)
 {	
-	// Vertical Smartphone Display
-	@media screen and (max-height: 480px){
     margin-top: 1px; //0.0015x 480=2
     margin-bottom: 1px; 
-    width: 78%;
-  }
-	// Vertical Smartphone Display
-	@media screen and (max-width: 320px),and (max-height: 480px){
-    margin-top: 1px; //0.0015x 480=2
-    margin-bottom: 1px; 
-    width: 78%;
-  }	
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+// Vertical Smartphone Display
+@media screen and (max-width: 320px){
+  margin-top: 1px; //0.0015x 480=2
+  margin-bottom: 1px; 
+  width: 100%;
+}	
+//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+@media screen and (max-width: 240px)
+{
+  margin-top: 1px;
+  margin-bottom: 1px; 
+  width: 100%;
 }
 //////////////////////////////////////////////////////////////////
 box-shadow: /* ie */
